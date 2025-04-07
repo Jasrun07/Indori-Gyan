@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plan Your Indore Trip</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body class="itinerary-body">
+  <div class="day-selector">
+    <label for="days">Select number of days:</label>
+    <div id="dayDisplay">Selected Days: <span id="dayValue">3</span></div>
+    <input type="range" id="days" name="days" min="1" max="7" value="3" />
+    <button onclick="suggestPlan()">💖 Suggest Plan</button>
+  </div>
+  
+    <div class="plan-output" id="planOutput"></div>
+  </div>
+</body>
+</html>
+
+ 

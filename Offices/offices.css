@@ -1,0 +1,150 @@
+body {
+    background-color: #0e0f0e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  /* Each column takes ~48% */
+  .column {
+    flex: 1 1 60%;
+    min-width: 300px;
+  }
+  
+  /* Highlight box design */
+  .highlight-box {
+    border: 2px solid #1891c5;
+    background-color: rgba(42, 141, 175, 0.1);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  /* Dropdown styling */
+  select {
+    padding: 6px 12px;
+    background-color: #001f3f;
+    color: #ffffff;
+    border: 1px solid #00bfff;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Link style */
+  a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ol li {
+    margin-bottom: 50px; /* Adjust gap between office items */
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* optional soft divider */
+  }
+  .govt-offices-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .govt-logo img {
+    width: 350px;
+    height: auto;
+  }
+  
+  .govt-offices-list {
+    flex: 3;
+  }
+  
+  .govt-offices-list h3 {
+    margin-bottom: 15px;
+    color: #95c11e;
+  }
+  
+  .office {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-left: 4px solid #95c11e;
+    border-radius: 6px;
+    line-height: 1.5;
+  }
+  
+  .office a {
+    color: #030303;
+    text-decoration: underline;
+  }
+  .govt-offices-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 40px;
+  }
+  
+      
+      .govt-logo-left {
+        flex: 1;
+      }
+      
+      .govt-logo-left img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+      }
+      
+    
+  
+      .govt-offices-overlay {
+        flex: 2;
+        backdrop-filter: blur(0.1s);
+        background: rgba(224, 220, 220, 0.85);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 800px;
+      }
+      
+  
+  
+  
+  .govt-offices-overlay h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .govt-offices-overlay ol {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  
+  .govt-offices-overlay li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .govt-offices-overlay a {
+    color: #0b0b0b;
+    text-decoration: none;
+  }
+  
+  .govt-offices-overlay a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
